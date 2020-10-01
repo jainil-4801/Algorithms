@@ -46,6 +46,9 @@ def update(seg_ind,seg_st,seg_end,qi,arr):
 
 
 n = int(input())
+c = int(input())
+d = int(input())
+    
 a = get_array()
 stree = [None]*(2*n)
 build(1,0,n-1,a)
