@@ -19,7 +19,7 @@ var Admin = require("./models/admin");
 
 //encryting password
 app.use(require("express-session")({
-  secret: "kuch bhi likh do",
+  secret: "anything",
   resave: false,
   saveUninitialized: false
 }));
@@ -76,6 +76,6 @@ function isLoggedIn(req, res, next){
 }
 
 //PORT
-app.listen(5000, function(){
-  console.log("Serving app on port 3000");
+app.listen(3000, function(){
+  console.log("Open server 3000");
 });
